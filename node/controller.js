@@ -11,7 +11,7 @@ module.exports = {
                 message: result,
             });
         } catch (err) {
-            console.log(err);
+            console.log(err, '==>err');
             return res.status(500).json({
                 status: false,
                 message: err,
