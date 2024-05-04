@@ -12,8 +12,10 @@ export class HomeComponent {
   constructor(private productServices: ProductsService) {}
 
   ngOnInit() {
-    this.productServices.getProducts('', {}).subscribe((products: any) => {
-      console.log(products);
-    });
+    this.productServices
+      .getProducts('http://localhost:4000/getAllProducts', {})
+      .subscribe((products: any) => {
+        console.log(products.message);
+      });
   }
 }

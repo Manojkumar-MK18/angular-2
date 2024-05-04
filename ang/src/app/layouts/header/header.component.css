@@ -1,0 +1,16 @@
+.wrapper {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 20%;
+    object-fit: contain;
+}
