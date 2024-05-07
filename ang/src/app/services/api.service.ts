@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { Options } from '../../types';
+import { Options, Product } from '../../types';
 
 @Injectable({
   providedIn: 'root',
@@ -13,7 +13,7 @@ export class ApiService {
     return this.http.get(url, options);
   }
 
-  post<T>(url: string, body: any, options: Options): Observable<any> {
+  post<T>(url: string, body: Product, options: Options): Observable<any> {
     return this.http.post(url, body, options);
   }
 }

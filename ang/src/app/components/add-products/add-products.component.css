@@ -1,0 +1,44 @@
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(204, 231, 240);
+    padding: 10px;
+    flex-wrap: wrap;
+    margin: 20px;
+    border: 1px solid rgb(208, 208, 245);
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 15px;
+}
+
+label {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+input {
+    height: 35px;
+    border: none;
+    width: 300px;
+    border-radius: 3px;
+}
+
+input[type="file"] {
+    background-color: #fff;
+}
+
+.click-button {
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 0;
+}

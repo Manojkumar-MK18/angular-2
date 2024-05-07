@@ -11,5 +11,5 @@ import { FormsModule } from '@angular/forms';
 })
 export class ProductsComponent {
   @Input() product!: Product | undefined
-
+ 
 }

@@ -10,4 +10,10 @@ export class ProductsService {
   getProducts = (url: string, params: any): any => {
     return this.apiServices.get(url, params);
   };
+
+  addProducts = (url: string, body: any): any => {
+    return this.apiServices.post(url, body, {
+      responseType: 'arraybuffer'
+    });
+  };
 }

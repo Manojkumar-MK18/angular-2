@@ -1,9 +1,9 @@
 <div class="card">
-    <img [src]="product?.image" alt="" />
+    <img src="http://localhost:4000/{{product?.image}}" alt="" />
     <h2 className="title">{{ product?.name }}</h2>
     <div class="price-details">
         <span>Price:</span>
-        <b> ₹ {{ product?.price }}</b>
+        <span> ₹ {{ product?.price }}</span>
     </div>
     <p-rating ngModel="{{ product?.rating }}" [readonly]="true" iconCancelClass="hidden" />
 </div>

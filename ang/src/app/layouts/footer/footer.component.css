@@ -3,7 +3,8 @@
     height: 40px;
     border-top: 1px solid gray;
     display: flex;
-    justify-content: center;
+    padding: 15px;
+    justify-content: space-between;
     align-items: center;
     font-size: 13px;
 }

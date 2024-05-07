@@ -1,7 +1,7 @@
-    .card {
-        background-color: red;
-        display: flex;
-        flex-direction: column;
-        width: 20%;
-        margin: 10px;
-    }
+.home-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}

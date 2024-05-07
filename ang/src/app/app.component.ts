@@ -19,5 +19,5 @@ import { ButtonComponent } from './components/button/button.component';
   styleUrl: './app.component.css',
 })
 export class AppComponent {
-  title = 'ang';
+  title = 'Mkart';
 }
