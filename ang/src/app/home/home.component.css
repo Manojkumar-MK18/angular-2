@@ -1,0 +1,7 @@
+    .card {
+        background-color: red;
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        margin: 10px;
+    }

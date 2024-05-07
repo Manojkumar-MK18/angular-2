@@ -1,0 +1,9 @@
+<div class="card">
+    <img [src]="product?.image" alt="" />
+    <h2 className="title">{{ product?.name }}</h2>
+    <div class="price-details">
+        <span>Price:</span>
+        <b> ₹ {{ product?.price }}</b>
+    </div>
+    <p-rating ngModel="{{ product?.rating }}" [readonly]="true" iconCancelClass="hidden" />
+</div>

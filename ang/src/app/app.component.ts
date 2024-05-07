@@ -8,7 +8,13 @@ import { ButtonComponent } from './components/button/button.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, HeaderComponent, FooterComponent,ButtonComponent],
+  imports: [
+    CommonModule,
+    RouterOutlet,
+    HeaderComponent,
+    FooterComponent,
+    ButtonComponent,
+  ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
